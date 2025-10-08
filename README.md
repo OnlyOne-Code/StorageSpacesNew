@@ -15,7 +15,7 @@ PowerShell script for automated creation and monitoring of Windows Storage Space
 
 ```text
 ┌───────────────────────────────────────────────────────────┐
-│                    STORAGE SPACES POOL                    │
+│                  STORAGE SPACES POOL                      │
 │                  "Data StoragePool"                       │
 ├───────────────────────────────────────────────────────────┤
 │  ┌─────────────┐  ┌─────────────┐  ┌─────────────┐        │
@@ -86,9 +86,9 @@ Edit these variables at the top of the script:
 
 ```powershell
 $SerialNumbers = @(
-    "XXXXXXXXXXXXXXX-SSD1",  # Your SSD serial numbers
-    "XXXXXXXXXXXXXXX-HDD1",  # Your HDD serial numbers
-    "XXXXXXXXXXXXXXX-HDD2"   # Your HDD serial numbers
+    "XXXXXXXXXXXXXXX",  # Your SSD serial numbers
+    "XXXXXXXXXXXXXXX",  # Your HDD serial numbers
+    "XXXXXXXXXXXXXXX"   # Your HDD serial numbers
 )
 $StoragePoolName = "Data StoragePool"
 $VirtualDiskName = "Data VirtualDisk" 
